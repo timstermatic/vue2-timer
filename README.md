@@ -9,4 +9,9 @@ Just a simple timer app built to practice Vue 2x
 
 ### Use
 
-Fire up the `src/index.html` and click around.
+Fire up the `build/index.html` and click around.
+
+
+### Enhance
+
+Run `webpack --watch` then hack away at the contents of `src`.
