@@ -17,6 +17,7 @@
 import TimerHistoryRow from './TimerHistoryRow.vue'
 
 export default {
+
 	components: {
 		TimerHistoryRow: TimerHistoryRow
 	},
