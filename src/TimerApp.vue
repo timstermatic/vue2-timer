@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="container">
 		<ToolBar :saveHistory="saveHistory"/>
 		<TimerHistory :history="history" />
 	</div>
@@ -24,11 +24,13 @@ export default {
 	},
 	data() {
 		return {
-			history: [
-			]
+			history: []
 		}
 	}
-
-
 }
+
 </script>
+
+
+	
+

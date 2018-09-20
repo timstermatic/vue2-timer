@@ -1,6 +1,13 @@
 {
   "dependencies": {
+    "css-loader": "^1.0.0",
+    "foundation-sites": "^6.5.0-rc.3",
+    "material": "^0.3.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "moment": "^2.22.2",
+    "node-sass": "^4.9.3",
     "path": "^0.12.7",
+    "sass-loader": "^7.1.0",
     "vue": "^2.5.17",
     "vue-loader": "^15.4.2",
     "vue-template-compiler": "^2.5.17",

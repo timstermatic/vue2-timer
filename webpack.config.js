@@ -3,7 +3,6 @@
 const { VueLoaderPlugin } = require('vue-loader')
 const path = require('path')
 
-
 module.exports = {
     mode: 'development',
     entry: [
@@ -12,13 +11,13 @@ module.exports = {
     output: {
       path: path.resolve(__dirname, 'build/js'),
       filename: 'app.bundle.js',
-    },
+		},
     module: {
       rules: [
-        {
-          test: /\.vue$/,
-          use: 'vue-loader'
-        }
+				{
+					test: /\.vue$/,
+					loader: 'vue-loader',
+				},
       ]
     },
     plugins: [

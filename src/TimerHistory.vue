@@ -1,7 +1,15 @@
 <template>
-	<div>
-		<TimerHistoryRow v-for="row in history" :row="row"/>
-	</div>
+	<table class="table" v-if="history.length">
+		<thead>
+			<tr>
+				<th>Task</th>
+				<th>Time Spent</th>
+			</tr>
+		</thead>
+
+		<TimerHistoryRow v-for="(row, key) in history" :row="row" :key="key"/>
+
+	</table>
 </template>
 
 <script>
